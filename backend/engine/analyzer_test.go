@@ -137,7 +137,7 @@ func TestCalculateCostUSD(t *testing.T) {
 		maxCost  float64
 	}{
 		{"claude sonnet small", "claude", "claude-sonnet-4-6", 1000, 500, 0.01, 0.02},
-		{"claude haiku cheap", "claude", "claude-haiku-3-5", 1000, 500, 0.001, 0.005},
+		{"claude haiku cheap", "claude", "claude-haiku-4-5", 1000, 500, 0.001, 0.005},
 		{"gemini flash very cheap", "gemini", "gemini-2.0-flash", 1000, 500, 0.0001, 0.001},
 		{"zero tokens", "claude", "claude-sonnet-4-6", 0, 0, 0, 0},
 	}
